@@ -50,6 +50,14 @@ body {
   width: 100%;
 }
 
+.notepadHotRamen {
+  width: 100%;
+}
+
+.notepadHotRamen ul li {
+  border-bottom: dotted 2px var(--main-secondary-color);
+}
+
 .notepadTacohead ul li {
   border-bottom: dotted 2px var(--main-secondary-color);
 }
