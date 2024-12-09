@@ -25,14 +25,14 @@ body {
 
 /* --------------- BILL SPLITTER ______________ */
 .container {
-  width: 100%;
+  width: 99%;
   height: 100%;
-  padding-top: 116px;
+  padding: 116px 10px 50px 5px;
 }
 .sectionHeadingContainer {
   display: flex;
   align-items: center;
-  margin: 40px 0px 10px 0px;
+  margin: 20px 0px 10px 0px;
   width: 100%;
   font-size: 1.5rem;
 }
@@ -76,6 +76,8 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 10px;
+  margin: 5px;
+  background-color: var(--taco-bg-color);
 }
 
 #selectItem {
@@ -125,6 +127,18 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
+.tacoHeadSection {
+  border-bottom: 2px dotted var(--main-bg-color);
+  padding: 5px;
+}
+
+.theBarSection {
+  border-bottom: 2px dotted var(--main-bg-color);
+}
+.hotRamenSection {
+  border-bottom: 2px dotted var(--main-bg-color);
+}
+
 /* ------- CHECKBOX ---------- */
 
 .round {
@@ -169,4 +183,33 @@ input[type="checkbox"] {
 
 .round input[type="checkbox"]:checked + label:after {
   opacity: 1;
+}
+
+/* ---------------- FOOTER -------------------------------  */
+
+.totalCostContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px 14px;
+  width: 100%;
+  box-shadow: 2px 0px 2px 2px #bf986954;
+  background-color: var(--main-bg-color);
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  transition: 0.3s ease transform;
+}
+.totalCost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4efe6;
+  width: 100px;
+  height: 25px;
+  margin: 0px 0px 0px 5px;
+  font-family: var(--main-font-family);
+}
+.totalCostSpan {
+  font-family: var(--main-font-family);
 }

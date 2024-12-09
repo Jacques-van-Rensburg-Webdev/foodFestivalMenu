@@ -46,6 +46,7 @@ a {
   top: 0;
   z-index: 1000;
   transition: 0.3s ease transform;
+  box-shadow: 2px 0px 2px 2px #bf986954;
 }
 
 .navMenu {
@@ -133,3 +134,43 @@ a {
 }
 
 /* ______________ NAVBAR ENDS __________________ */
+
+/* ---------------- FOOTER -------------------------------  */
+
+.notepadFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notepadBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  background-color: none;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  transition: 0.3s ease transform;
+  margin: 0px 0px 12px 0px;
+}
+.notepadFooterBtn {
+  height: 54px;
+  padding: 10px;
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--main-font-color);
+  border-radius: 10px;
+  box-shadow: 1px 0px 1px 1px #f5d0a388;
+}
+
+.attribution {
+  background-color: var(--main-bodybg-color);
+  font-family: var(--secondary-font-family);
+  font-size: 10px;
+}
+.attributionLink {
+  color: blue;
+}

@@ -104,7 +104,10 @@
   margin-left: 88%;
   margin-bottom: 2%;
 }
-
-.notePadAddbtn:hover {
+.notePadAddbtn:active {
   background-color: darkred;
+  width: 60px;
+  height: 60px;
+  margin-left: 80%;
+  z-index: 999;
 }

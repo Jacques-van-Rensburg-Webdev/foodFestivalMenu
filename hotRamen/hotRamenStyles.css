@@ -20,9 +20,13 @@
 }
 
 /* --------------- HOT RAMEN MENU _______________ */
+body {
+  margin-bottom: 15px;
+  background-color: var(--main-bodybg-color);
+}
 .container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-top: 116px;
   background-color: var(--main-bodybg-color);
 }
@@ -85,6 +89,10 @@
   margin-bottom: 2%;
 }
 
-.notePadAddbtn:hover {
+.notePadAddbtn:active {
   background-color: darkred;
+  width: 60px;
+  height: 60px;
+  margin-left: 80%;
+  z-index: 999;
 }
