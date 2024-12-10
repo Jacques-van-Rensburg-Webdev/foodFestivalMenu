@@ -207,9 +207,10 @@ input[type="checkbox"] {
   background-color: #f4efe6;
   width: 100px;
   height: 25px;
-  margin: 0px 0px 0px 5px;
+  margin: 0px 0px 10px 5px;
   font-family: var(--main-font-family);
 }
 .totalCostSpan {
   font-family: var(--main-font-family);
+  margin: 0px 0px 10px 5px;
 }
