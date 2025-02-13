@@ -1,1 +1,2 @@
-# menuBillSplitter
+This project was my end-of-semester project for the ReDI School JavaScript course. While attending festivals and events with food stalls and restaurants, I noticed a common frustration—visitors often have to push through crowds and long queues just to check the menus. This can make the experience inconvenient and overwhelming.
+To solve this, I designed and developed a mobile-friendly website that centralizes all food stall menus in one place. With this solution, attendees can easily browse menus, check prices, and plan their meals without having to navigate through packed crowds. This not only improves convenience for visitors but also enhances efficiency for vendors.
